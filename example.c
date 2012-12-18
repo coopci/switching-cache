@@ -69,3 +69,6 @@ int main( int argc , char** args){
     printf ("nulls is %d \n"  , nulls);
 }
 
+
+
+
