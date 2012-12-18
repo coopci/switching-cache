@@ -4,32 +4,6 @@
 #include <sqlite3.h>
 #include "ng_rewrite.h"
 
-/*
-SWITHCING_CACHE_DECLARE(ng_rewrite)
-SWITHCING_CACHE_IMPLEMENT(ng_rewrite)
-
-typedef struct _ng_rewrite{
-    int64_t uid ;
-    int ng ;
-    int mode ;
-} ng_rewrite_t;
-
-
-typedef struct _ng_rewrite_cache{
-    int count;
-    ng_rewrite_t * data;
-} ng_rewrite_cache_t;
-
-
-void ng_rewrite_free_cache(ng_rewrite_cache_t * cache){
-    if ( !cache)
-        return;
-    if ( cache->data )
-        free(cache->data);
-    free(cache);
-}
-*/
-
 int main( int argc , char** args){
     int i;
     ng_rewrite_cache_t * cache = NULL;
