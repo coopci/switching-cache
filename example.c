@@ -69,6 +69,7 @@ int main( int argc , char** args){
     printf ("nulls is %d \n"  , nulls);
 }
 
+void f(){
+	printf("in testing branch\n");
 
-
-
+}
